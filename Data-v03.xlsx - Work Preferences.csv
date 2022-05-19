@@ -1,0 +1,52 @@
+,Items,,Work Scheduling Autonomy,,Decision Making Autonomy,,Work Methods Autonomy,,Task Variety,,Task Significance,,Task Identity,,Feedback from Job,,Job Complexity,,Information Processing Information Processing,,Problem Solving,,Skill Variety,,Specialization,,Social Support,,Initiated Interdependence ,,Received Interdependence,,Interaction Outside Research Group,,Feedback from Others,,Faculty/projecdt leader feedback,,Peer Feedback,,Ergonomics,,Physical Demands,,Work Conditions,,Equipment Use,
+Profile Id,Profile  Name,User,Preference for Work Scheduling Autonomy,Importance of Preference for Work Scheduling Autonomy,Preference for Decision Making Autonmy,Importance of  Decision Making Autonmy,Preference for Work Methods Autonomy Preference for Work Methods Autonomy,Importance of Work Methods Autonomy ,Preference for Task Variety,Importance of  Preference for Task Variety,Preference for Task Significance ,,Preference for Task Identity,Importance  of Task Identity,Preference for Feedback from Job,Importance  of Feedback from Job,Preference for Job Complexity,Importance  of  Job Complexity,Preference for Information Processing,Importance  of ,Preference for Problem Solving,Importance  of Problem Solving,Preference for Skill Variety,Importance  of Skill Variety,Preference for Specialization,Importance  of Specialization,Preference for Social Support,Importance  of Social Support,Preference for Initiated Interdependence,Importance  of  Initiated Interdependence ,Preference for Received Interdependence,Importance  of Received Interdependence,Preference for Interaction Outside Research Group,Importance  of Interaction Outside Research Group,Preference for Feedback from Others,Importance  of Feedback from Others,Preference for Faculty/project leader feedback,Importance  of Faculty/projecdt leader feedback,Preference for Peer Feedback,Importance  of Peer Feedback,Preference for Ergonomics,Importance  of Ergonomics,Preference for Physical Demands,Importance  of Physical Demands,Preference for Work Conditions,Importance  of  Work Conditions,Preference for Equipment Use,Importnace  of  Equipment Use
+1,Dream Job,1,3,3,3,5,5,4,5,2,3,4,4,1,1,7,4,5,3,2,1,5,2,2,3,1,3,3,3,7,3,4,2,4,1,5,2,5,7,7,7,2,7,3,1,4,1,6
+2,Professional Development,1,2,7,3,6,5,0,5,4,4,3,4,4,4,4,1,6,2,2,3,7,3,3,3,7,3,4,3,7,3,5,1,6,1,7,1,1,7,4,7,7,7,6,6,5,5,1
+3,Dream Job,2,5,6,5,4,3,7,5,7,4,4,4,5,2,0,4,0,1,0,3,4,1,6,3,4,3,1,3,0,1,7,2,2,2,6,1,1,7,6,7,5,1,0,6,5,5,3
+4,What I like,2,2,1,5,1,3,6,1,7,4,3,2,6,4,3,4,1,3,2,1,5,3,4,1,1,3,1,1,1,3,2,2,3,2,4,2,6,1,2,7,2,1,2,6,7,5,1
+5,Dream Job,3,5,5,5,3,5,7,2,7,1,2,4,6,4,2,4,5,5,6,3,1,1,4,3,5,1,4,3,5,3,3,2,1,2,3,2,7,7,4,7,6,7,6,6,4,5,2
+6,Best Internship,5,5,4,2,1,5,6,5,5,3,3,4,2,4,0,5,4,5,6,1,4,3,6,1,3,3,4,3,7,3,3,5,1,5,7,2,5,7,3,7,2,7,3,1,1,1,6
+7,Dream Job,6,2,0,5,4,5,3,5,6,4,3,3,6,5,4,1,0,3,3,5,6,3,0,1,5,1,7,3,7,5,2,1,7,1,0,5,7,7,5,7,7,7,6,5,1,5,6
+8,My Internship,7,5,3,3,4,5,1,5,7,4,2,5,7,3,3,4,4,3,2,3,2,5,4,3,1,3,1,1,3,1,4,2,4,2,6,1,1,5,4,7,1,1,7,6,1,5,6
+9,High Tech Career,8,5,7,3,0,5,1,5,2,4,5,5,4,4,7,3,7,3,2,3,7,3,2,5,0,3,2,5,3,1,1,2,3,2,4,2,5,1,5,7,2,1,7,6,5,5,1
+10,High Tech Career,9,5,2,5,5,3,2,3,1,1,0,4,6,4,1,4,1,3,4,3,5,3,4,3,0,1,2,3,0,3,3,1,0,2,7,2,2,7,7,7,6,7,0,6,1,5,0
+11,Lab Tech Job,9,3,2,3,5,5,4,5,4,3,4,4,5,4,5,4,7,3,5,3,3,3,7,3,1,3,1,3,6,3,5,2,6,1,0,2,2,7,7,7,1,7,3,1,2,1,5
+12,Dream Job,10,5,0,3,0,5,6,5,0,4,0,3,7,4,5,1,7,3,2,3,6,3,0,3,7,3,5,3,4,3,7,1,0,1,4,1,5,7,5,7,1,7,6,6,7,5,1
+13,Work-life balance,10,4,7,4,0,4,5,4,6,4,3,3,7,4,7,4,7,4,7,4,4,4,5,4,7,4,3,4,2,1,7,4,5,4,4,4,4,4,2,4,5,4,7,4,6,4,0
+14,My future career,10,5,3,5,5,3,1,1,1,4,0,1,7,3,2,4,6,3,0,3,3,3,5,3,3,3,7,1,3,3,7,2,7,2,3,2,0,1,3,7,1,1,0,6,4,5,4
+15,Dream Job,14,5,3,5,2,5,5,3,4,3,4,4,0,4,0,3,4,3,7,3,0,3,1,3,6,1,6,3,5,3,5,2,6,2,4,2,5,7,4,1,2,7,6,6,3,5,6
+16,Dream Job,15,5,6,5,0,5,7,5,1,4,0,3,6,4,0,5,4,5,2,3,5,3,5,3,4,3,2,3,6,3,7,5,3,5,3,2,0,7,1,7,1,1,0,1,3,1,1
+17,Work-life balance,15,5,6,5,2,5,7,5,4,4,7,4,5,3,4,1,5,3,0,5,7,3,0,3,3,3,5,3,3,5,5,3,4,3,3,5,2,7,6,7,0,1,1,5,2,5,2
+18,Future Career,17,5,6,5,7,5,0,5,4,4,3,5,7,1,1,3,6,3,0,3,0,5,0,3,1,3,1,5,3,1,4,2,1,2,2,3,7,5,2,7,5,1,1,1,1,5,1
+19,Dream Job,20,7,7,7,4,7,5,7,0,7,2,7,2,7,3,7,0,7,2,7,7,7,2,7,7,7,6,7,2,7,1,7,4,7,6,7,1,7,2,7,3,7,4,7,2,7,0
+20,Things I would like to avoid,21,5,7,5,0,5,0,5,4,1,6,4,3,4,0,4,2,3,5,3,5,3,6,3,4,3,3,3,2,3,2,2,2,2,1,2,3,3,7,3,3,7,4,6,6,5,0
+21,Dream Job,21,1,5,5,4,5,2,5,4,4,6,4,7,4,5,4,1,3,2,3,6,3,4,3,7,3,5,3,0,3,1,2,3,1,6,2,4,7,0,7,3,3,7,1,2,1,6
+22,Dream Job,22,5,3,1,2,5,4,5,4,4,3,4,7,4,4,1,0,3,2,3,0,3,5,3,1,3,1,3,1,3,4,3,2,1,3,7,6,7,4,7,3,7,2,6,1,3,7
+23,After graduation,10,5,3,5,0,1,4,5,5,4,5,4,4,1,5,4,0,3,0,3,0,1,2,3,0,3,4,3,0,1,1,2,2,7,7,1,6,7,2,7,2,1,0,6,5,5,0
+24,Bad Jobs,23,5,3,5,2,5,6,1,4,4,0,1,7,4,1,4,3,3,1,3,2,3,2,1,7,3,7,7,4,3,4,7,7,2,2,3,5,1,1,7,1,1,6,6,2,3,7
+25,Dream Job,25,5,6,5,4,5,4,5,4,1,7,4,7,4,5,4,5,5,6,3,4,3,0,3,3,7,2,3,7,3,2,2,1,2,4,2,1,3,7,7,3,7,5,6,2,3,2
+26,After graduation,4,1,0,1,4,1,6,5,3,1,5,1,4,1,7,1,7,1,6,1,0,1,1,1,4,1,5,1,1,1,5,1,1,1,1,1,3,1,2,1,1,1,5,1,3,1,7
+27,Career,4,5,4,5,5,5,1,5,3,4,5,4,4,5,6,1,6,3,0,5,7,3,0,7,5,3,5,3,7,5,5,1,2,1,1,5,4,7,3,7,5,3,6,5,7,5,7
+28,Bad Jobs,5,5,1,5,7,5,0,5,2,4,0,5,4,1,7,4,3,3,4,3,7,7,3,3,4,3,2,5,2,1,5,2,3,3,2,1,3,5,6,3,2,1,0,3,7,5,5
+29,Dream Job,7,5,3,5,4,5,4,5,1,4,2,5,2,4,3,4,1,3,3,7,4,3,1,5,7,3,4,5,3,3,3,2,7,3,5,2,1,1,4,3,1,1,1,6,0,3,5
+30,Career 1,7,5,5,5,4,5,4,5,3,1,5,4,7,4,2,4,7,7,0,3,6,3,2,3,3,1,0,3,1,3,2,2,1,3,6,2,5,3,3,7,4,7,2,6,6,2,3
+31,Career 2,7,3,4,5,3,5,2,5,5,4,6,4,2,7,1,7,0,3,2,1,0,3,0,3,5,3,4,3,6,3,4,2,2,1,1,2,0,7,7,7,7,2,5,2,3,1,6
+32,Work-life balance,8,4,4,3,6,4,3,43,4,3,4,4,1,3,0,4,1,3,3,4,4,3,0,4,7,3,7,3,5,3,5,4,3,3,4,4,4,3,3,4,4,3,1,4,2,3,4
+33,I do not want to work,10,5,0,5,2,3,5,5,7,7,4,4,0,1,4,4,7,3,1,3,1,1,0,3,3,3,1,3,7,1,5,2,4,2,6,1,2,2,6,7,7,1,4,6,5,5,2
+34,Work-life balance,11,2,7,5,4,3,6,7,5,4,3,1,5,4,7,4,5,3,5,3,4,3,2,1,7,3,1,1,7,3,5,2,3,2,2,2,6,1,6,7,2,1,7,6,6,5,3
+35,I do not want to work,12,5,4,5,2,7,3,3,5,1,6,4,3,4,1,4,6,5,2,3,4,3,1,3,0,1,2,3,6,3,4,2,4,2,5,2,3,7,4,7,0,7,7,6,3,5,4
+36,If i did want to work,12,5,1,7,5,5,1,5,3,3,0,4,4,4,7,5,5,5,2,1,2,3,0,3,1,3,1,3,3,3,1,2,7,5,7,2,3,7,5,7,2,7,1,1,2,1,3
+37,Job in sunny California,13,7,7,5,1,5,2,5,6,4,1,3,4,5,7,1,4,3,2,5,1,3,4,3,3,3,1,2,2,2,1,1,0,1,5,5,6,7,0,7,5,7,4,5,2,5,2
+38,My Career plan ,16,7,1,5,7,5,3,5,2,4,0,5,6,3,2,4,7,3,4,3,7,5,1,3,0,2,4,5,5,1,3,2,2,2,0,1,5,5,6,7,4,1,4,6,7,5,6
+39,In search of a good job,17,7,6,7,2,5,7,5,6,4,1,5,0,4,7,3,0,3,3,3,3,3,5,2,0,3,5,5,5,3,1,2,3,2,2,2,4,1,3,7,4,1,0,6,0,5,5
+40,Active job,18,5,4,5,1,7,5,5,2,1,6,4,7,4,5,4,4,3,0,3,1,2,1,3,4,1,2,3,2,3,3,2,6,2,1,2,0,7,4,7,4,7,1,6,6,5,0
+41,Job #4,19,3,5,3,3,5,7,7,7,4,1,4,1,4,4,4,5,3,5,2,3,3,6,3,7,3,2,3,3,3,7,2,4,1,4,2,6,7,0,7,1,7,1,1,7,1,5
+42,Profile #5,20,5,0,3,0,5,7,5,4,7,7,4,6,4,2,1,2,2,3,3,3,3,2,3,6,3,6,3,7,3,7,1,3,1,0,1,7,7,1,7,4,7,6,6,3,5,3
+43,Yawn,24,5,5,5,5,1,4,5,2,7,5,4,2,1,6,2,3,3,5,3,7,1,5,3,0,3,1,3,6,1,7,2,3,2,7,1,2,7,5,7,5,1,7,6,7,5,4
+44,CEO track,24,5,2,5,0,3,5,1,6,4,4,7,4,2,1,4,5,3,3,3,6,3,6,3,1,3,6,1,6,3,4,2,5,2,7,2,7,1,7,7,4,1,7,6,5,5,0
+45,I do not want to work,25,5,5,5,2,5,4,3,7,3,3,2,7,7,1,4,6,5,1,3,6,3,5,3,1,1,1,3,6,3,1,2,5,2,0,2,4,7,0,7,3,7,2,6,1,5,0
+46,Job #2,12,5,2,5,3,5,3,5,6,2,0,3,0,4,4,7,7,7,5,1,5,3,4,3,2,3,1,3,1,3,1,5,5,5,5,2,1,7,2,7,3,7,7,1,3,1,4
+47,My last profile,12,5,4,5,7,5,5,2,3,4,0,4,4,3,0,1,4,3,4,7,0,3,2,3,5,3,6,3,2,5,3,3,0,3,7,5,5,7,4,7,5,7,1,5,1,5,3
+48,Huh,22,5,6,5,6,2,3,5,1,4,3,5,0,1,4,3,4,3,2,3,5,7,6,3,6,3,3,5,2,1,6,2,2,2,5,3,6,5,1,7,1,1,4,6,1,5,1
+49,Huh 2,22,5,7,2,0,5,7,5,3,4,1,5,3,4,3,4,3,3,4,3,4,3,2,7,4,3,1,5,7,3,3,2,6,2,7,2,4,1,0,7,7,1,3,6,7,5,6
+50,Work-life balance,23,2,0,5,7,5,0,5,0,1,7,4,2,4,2,4,2,3,7,3,7,3,6,3,0,7,6,3,2,3,2,2,6,2,2,2,5,3,2,3,2,7,5,6,6,5,3
