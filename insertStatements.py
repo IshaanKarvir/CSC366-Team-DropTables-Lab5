@@ -3,6 +3,8 @@ import requests
 import pandas as pd
 import random
 
+from scipy import rand
+
 mapping = []
 
 def cleanElement(el):
@@ -41,7 +43,7 @@ def getResponseOptionsInsert(record):
     pos = record[1]
     resVal = record[2]
     resPrompt = record[3]
-    comment = 'null' if record[4] == "nan" else record[4]
+    comment = 'NULL' if record[4] == "nan" else record[4]
     values = f"{id},{pos},{resVal},'{resPrompt}','{comment}'"
     insertStatement = f"INSERT INTO ResponseOptions (SurveyID, Position, ResponseValue, ResponsePrompt, Comment) VALUES ({values});"
     return insertStatement
@@ -70,10 +72,14 @@ def getUREInsert(record):
     caseText = record[0]
     caseNumber = caseText.strip().split()[-1]
     surveyId = 1
-    dateCompleted = "Null"
+    day = random.randint(1, 30)
+    if day < 10:
+        dateCompleted = f"2022-04-0{day}"
+    else:
+        dateCompleted = f"2022-04-{day}"
     category = "URE"
     userId = record[1]
-    values = f"{caseNumber},{surveyId},{dateCompleted},{category},{userId}"
+    values = f"{caseNumber},{surveyId},'{dateCompleted}','{category}',{userId}"
     insertStatement = f"INSERT INTO SurveyResponses (SurveyResponseID, SurveyID, DateCompleted, Category, UserID) VALUES ({values});"
     return insertStatement
 
@@ -98,10 +104,14 @@ def getWorkExpInsert(record):
     caseText = record[0]
     caseNumber = caseText.strip().split()[-1]
     surveyId = 2
-    dateCompleted = "Null"
+    day = random.randint(1, 30)
+    if day < 10:
+        dateCompleted = f"2022-04-0{day}"
+    else:
+        dateCompleted = f"2022-04-{day}"
     category = "Work"
     userId = record[1]
-    values = f"{caseNumber},{surveyId},{dateCompleted},{category},{userId}"
+    values = f"{caseNumber},{surveyId},'{dateCompleted}','{category}',{userId}"
     insertStatement = f"INSERT INTO SurveyResponses (SurveyResponseID, SurveyID, DateCompleted, Category, UserID) VALUES ({values});"
     return insertStatement
 
@@ -137,7 +147,7 @@ def expSurveyScore(record):
     insertStatement = ""
     for answer in record[1:]:
         characteristic = mapping[counter]
-        insertStatement += f"INSERT INTO SurveyScores (SurveyResponseID, Characteristic, Value) VALUES ({surveyResponseId}, {characteristic}, {answer});\n"
+        insertStatement += f"INSERT INTO SurveyScores (SurveyResponseID, Characteristic, Value) VALUES ({surveyResponseId}, '{characteristic}', {answer});\n"
         counter += 1
     return insertStatement
 
@@ -149,7 +159,7 @@ def insertDesiredProfiles(record):
     id = record[0]
     name = record[1]
     user = record[2]
-    insertStatement = f"INSERT INTO DesiredProfiles (DesPID, Name, UserId) VALUES ({id},{name},{user});"
+    insertStatement = f"INSERT INTO DesiredProfiles (DesPID, Name, UserId) VALUES ({id},'{name}',{user});"
     return insertStatement
 
 def insertDesScores(record):
@@ -159,13 +169,12 @@ def insertDesScores(record):
         return None
     counter = 0
     insertStatement = ""
-    print(record)
     for i in range(3, len(record), 2):
         preference = record[i]
         importance = record[i+1]
         characteristic = mapping[counter]
-        values = f"{record[0]},{characteristic},{preference},{importance}"
-        insertStatement += f"INSERT INTO DesiredScores (DesPID, Characteristic, Value, Importance) VALUES ({values})\n"
+        values = f"{record[0]},'{characteristic}',{preference},{importance}"
+        insertStatement += f"INSERT INTO DesiredScores (DesPID, Characteristic, Value, Importance) VALUES ({values});\n"
         counter += 1
     return insertStatement
 
@@ -193,18 +202,18 @@ def main():
     workExperienceUrl = "https://raw.githubusercontent.com/IshaanKarvir/CSC366-Team-DropTables-Lab5/main/data/Data-v03.xlsx%20-%20Work%20Experience.csv"
     expUrl = "https://raw.githubusercontent.com/IshaanKarvir/CSC366-Team-DropTables-Lab5/main/data/Data-v03.xlsx%20-%20Work%20Profile-copy-values.csv"
     despUrl = "https://raw.githubusercontent.com/IshaanKarvir/CSC366-Team-DropTables-Lab5/main/data/Data-v03.xlsx%20-%20Work%20Preferences.csv"
-    # printInsertStatements(surveyUrl, getSurveyInsert)
-    # printInsertStatements(userUrl, getUserInsert)
-    # printInsertStatements(questionsUrl, getQuestionsInsert)
-
+    printInsertStatements(surveyUrl, getSurveyInsert)
+    printInsertStatements(userUrl, getUserInsert)
+    printInsertStatements(questionsUrl, getQuestionsInsert)
     printInsertStatements(questionReponseUrl, getResponseOptionsInsert)
-    # printInsertStatements(ureExperienceUrl, getUREInsert)
-    # printInsertStatements(ureExperienceUrl, getUREResponses)
-    # printInsertStatements(workExperienceUrl, getWorkExpInsert)
-    # printInsertStatements(workExperienceUrl, getWorkResponses)
-    # printInsertStatements(expUrl, expInsert)
-    # printInsertStatements(despUrl, insertDesiredProfiles)
-    # printInsertStatements(despUrl, insertDesScores)
+    printInsertStatements(ureExperienceUrl, getUREInsert)
+    printInsertStatements(ureExperienceUrl, getUREResponses)
+    printInsertStatements(workExperienceUrl, getWorkExpInsert)
+    printInsertStatements(workExperienceUrl, getWorkResponses)
+    printInsertStatements(expUrl, expInsert)
+    printInsertStatements(expUrl, expSurveyScore)
+    printInsertStatements(despUrl, insertDesiredProfiles)
+    printInsertStatements(despUrl, insertDesScores)
 
 
 if __name__ == "__main__":
